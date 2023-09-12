@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300;400;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.header{
+  width: 100vw;
+  height: 17rem;
+  background: linear-gradient(88deg, #574AE8 0%, #3EA1DB 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.6rem;
+  width: 100vw;
+  color: #fff;
+}
+
+.text-header h2{
+  color: #fff;
+}
+
+#divBusca{
+  background-color:#2F4F4F;
+  border: transparent;
+  border-radius: 0.3125rem;
+  background: rgba(255, 255, 255, 0.20);
+  width: 55rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+  outline: none;
+  color: #fff;
+}
+#btnBusca{
+  float: left;
+  margin: 1.1rem;
+}
+
+input::placeholder{
+  color: #fff;
+  opacity: 0.5;
+}
+
+/* main */
+
+main {
+  width: 100vw;
+  height: auto;
+  background: #F3F5F7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 7rem;
+}
+
+article {
+  width: 56.25rem;
+  height: 1auto;
+  margin-top: 5rem;
+  border-radius: 0.3125rem;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(19, 19, 31, 0.05);
+  padding: 2rem;
+  text-align: justify;
+}
+
+article .date{
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  color: #717171;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+img{
+  cursor: pointer;
+}
+
+h2{
+  color: #1A202C;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 1.5rem 0 .4rem 0;
+}
+
+p{
+  color: #717171;
+  font-family: Lexend Deca;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
